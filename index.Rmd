@@ -1,0 +1,661 @@
+---
+title       : The Development of Constructed Response
+subtitle    : Astronomy Assessment Items 
+author      : Matthew M Steele, John Merrill, Kevin Haudek, and Mark Urban-Lurain
+job         : Michigan State University
+logo        : logo.png
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {selfcontained,standalone, draft}
+
+---
+
+<style>
+aside.gdbar img {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  margin: 8px 15px;
+}
+<style>
+
+
+<style>
+em {
+  font-style: italic
+}
+</style>
+
+<style>
+strong {
+  font-weight: bold;
+}
+</style>
+
+```{r,echo=FALSE}
+# inline_css <- function(css_files){
+#   css <- lapply(css_files, function(css_file){
+#     paste(readLines(css_file, warn = F), collapse = "\n")
+#   })
+#   htmltools::tags$style(css)
+# }
+# 
+# inline_css("libraries/frameworks/io2012/css/slidify.css")
+#cssDir <-"libraries/frameworks/io2012/css/"
+#fileList <- paste0(cssDir,list.files(cssDir,pattern=".css$"))
+#inline_css(fileList)
+```
+
+
+
+## But First, A Quick Review of Starlight
+
+<center> <img src="assets/img/The_Sun.jpg" width="400px" /> </center>
+<center> NASA </center>
+
+__Two major processes shape a stellar spectrum__
+ - Thermal emission
+ - Line absorption
+
+--- .class1 #id1 bg:black
+
+## Anatomy of a Star
+
+<center> <img src="assets/img/solarAtmosphere.png" width="500px" /> </center>
+
+--- .class1 #id1 bg:black
+
+## Thermal Radiation
+
+<center> <img src="assets/img/thermal_radiation1.png" height="400px" /> </center>
+
+--- .class1 #id1 bg:black
+
+## Thermal Radiation
+
+<center> <img src="assets/img/thermal_radiation2.png" height="400px" /> </center>
+
+--- .class1 #id1 bg:black
+
+## Thermal Radiation
+
+<center> <img src="assets/img/thermal_radiation3.png" height="400px" /> </center>
+
+
+--- .class1 #id1 bg:black
+
+## Anatomy of a Star
+
+<center> <img src="assets/img/solarAtmosphere.png" width="500px" /> </center>
+
+--- .class1 #id1 bg:black
+
+## Quantized Energy Levels
+
+<center> <img src="assets/img/energy_levels1.png" height="500px" /> </center>
+
+--- .class1 #id1 bg:black
+
+## Quantized Energy Levels
+
+<center> <img src="assets/img/energy_levels2.png" height="500px" /> </center>
+
+--- .class1 #id1 bg:black
+
+## Quantized Energy Levels
+
+<center> <img src="assets/img/energy_levels3.png" height="500px" /> </center>
+
+--- .class1 #id1 bg:black
+
+## Quantized Energy Levels
+
+<center> <img src="assets/img/energy_levels4.png" height="500px" /> </center>
+
+--- .class1 #id1 bg:black
+
+## Quantized Energy Levels
+
+<center> <img src="assets/img/energy_levels5.png" height="500px" /> </center>
+
+--- .class1 #id1 bg:black
+
+## Absorption Line Features
+
+<center> <img src="assets/img/absorptionFeatures.png" width="600px" /> </center>
+
+
+--- 
+
+## Astronomy Assessment for AACR 
+#### (AAAACR? ...probably not...hmmm...)
+### Objective:
+To develop a set of constructed response items probing student thinking on key concepts in astronomy
+
+### Motivation:
+ * A number of concept inventories exist covering topics in astronomy
+     * Light and Spectroscopy Concept Inventory  (LSCI) (Bardar et al 2007)
+     * Astronomy and Space Science Concept Inventory (Sadler et al 2010)
+     * Test of Astronomy Standards (Slater et al 2011)
+ * A set of constructed resoponse items can supplement these instruments by
+     * Providing deeper examining of student thinking
+     * Test problematic items
+
+---
+ 
+
+## Astronomy Assessment for AACR 
+#### (American Association Adapting Astronomy Assessments for AACR: AAAAAAACR)
+### Objective:
+To develop a set of constructed response items probing student thinking on key concepts in astronomy
+
+### Motivation:
+ * A number of concept inventories exist covering topics in astronomy
+     * Light and Spectroscopy Concept Inventory  (LSCI) (Bardar et al 2007)
+     * Astronomy and Space Science Concept Inventory (Sadler et al 2010)
+     * Test of Astronomy Standards (Slater et al 2011)
+ * A set of constructed resoponse items can supplement these instruments by
+     * Providing deeper examining of student thinking
+     * Test problematic items
+
+---
+## The AACR Question Development Cycle
+
+
+<center> <img src="assets/img/qdc.png" width="500px" /> </center>
+
+
+---
+
+## The AACR QDC in Practice
+
+
+<center> <img src="assets/img/qdc2.png" width="500px" /> </center>
+
+
+--- &twocol 
+
+## Light and Spectra
+
+
+*** =left
+
+<center> <img src="assets/img/crabmosaic.jpg" width="400px" /> </center>
+<center> NASA, ESA, J. Hester, A. Loll (ASU) </center>
+
+*** =right
+
+__Light And Spectroscopy Concept Inventory__
+ * Concept invetory on the production of electromagnetic spectra by astrophysical systems and their use studenting astronomical objects
+ * Bardar et al. 2007
+
+
+--- &twocol
+
+## Selecting LSCI Items
+
+<center> <img src="assets/img/starCluster2.jpg" height="200px" /> </center>
+<center> NASA, ESA and the Hubble SM4 ERO Team </center>
+
+*** =left
+
+__Goals__
+ * Content coverage
+ * Items for which CR can add depth
+ * Investigate items with high post-difficulty, low post-discrimination (Schlingman et al. 2012)
+ 
+*** =right
+ 
+__Constraints__
+ * Readily adaptable
+ * Small number of items
+ * Target automated analysis
+
+--- &twocol
+
+## The Items
+
+*** =left
+
+<div align=left> <img src="assets/img/m94.jpg" height="450px" /> </div>
+NASA, ESA
+
+*** =right
+
+__Emission line sources__
+ * LSCI Item 21
+ 
+__Source color and thermal emission with absorbtion features__
+ * LSCI Item 2
+ 
+__Comparing observed features to a known source__
+ * LSCI Item 17
+
+--- &twocol
+
+## The Items
+
+*** =left
+
+<div align=left> <img src="assets/img/m94.jpg" height="450px" /> </div>
+NASA, ESA 
+
+*** =right
+
+__Emission line sources__
+ * LSCI Item 21
+ 
+__*Source color and thermal emission with absorbtion features*__
+ * *LSCI Item 2*
+ 
+__Comparing observed features to a known source__
+ * LSCI Item 17
+
+---
+
+## LSCI Multiple Choice Version
+ 
+<center> ![Color](assets/img/q2.png) </center>
+ 
+Consider the dark line absorption spectra shown below for Star X and Star Z. What can you determine about the colors of the two stars? *Assume that the left end of each spectrum corresponds to shorter wavelengths (blue light) and that the right end of each spectrum corresponds with longer wavelengths (red light).* <br>
+ a. Star X would appear blue and Star Z would appear red. <br> 
+ b. Star X would appear red and Star Z would appear blue. <br>
+ c. Both stars would appear the same color. <br>
+ d. The colors of the stars cannot be determined from this information.  
+
+---
+
+## LSCI Multiple Choice Version
+ 
+<center> ![Color](assets/img/q2.png) </center>
+ 
+Consider the dark line absorption spectra shown below for Star X and Star Z. What can you determine about the colors of the two stars? *Assume that the left end of each spectrum corresponds to shorter wavelengths (blue light) and that the right end of each spectrum corresponds with longer wavelengths (red light).* <br>
+ *__a. Star X would appear blue and Star Z would appear red.__* <br> 
+ b. Star X would appear red and Star Z would appear blue. <br>
+ c. Both stars would appear the same color. <br>
+ d. The colors of the stars cannot be determined from this information.  
+
+---
+
+## LSCI Multiple Choice Version
+ 
+<center> ![Color](assets/img/q2.png) </center>
+ 
+Consider the dark line absorption spectra shown below for Star X and Star Z. What can you determine about the colors of the two stars? *Assume that the left end of each spectrum corresponds to shorter wavelengths (blue light) and that the right end of each spectrum corresponds with longer wavelengths (red light).* <br>
+ a. Star X would appear blue and Star Z would appear red. <br> 
+ b. Star X would appear red and Star Z would appear blue. <br>
+ c. Both stars would appear the same color. <br>
+ *__d. The colors of the stars cannot be determined from this information.__*  
+
+---
+
+## Constructed Response Version
+ 
+<center> ![Color](assets/img/q2.png) </center>
+
+Consider the dark line absorption spectra shown below for Star X and Star Z. What can you determine about the colors of the two stars? Assume that the left end of each spectrum corresponds to shorter wavelengths (blue light) and that the right end of each spectrum corresponds with longer wavelengths (red light).
+
+---
+ 
+## The Test Data Set
+
+__Introductory Astronomy__
+ * 2 sections
+ * N ~ 50, 150
+
+__Administration__
+ * Part of weekly homework
+ * Pre-instruction ~ 40 responses
+ * Post-instruction ~ 110 responses
+
+--- &twocol
+
+## The Exploratory Rubric Development
+
+<center> <img src="assets/img/rubricDevel.png" width="700px" /> </center>
+
+
+*** =left
+
+__Rubric__
+ - Analytic rubric
+ - Constructed post-administration based solely or response content
+ 
+*** =right
+
+__Bins__
+ - Fine grained concepts
+ - Not mutually exclusive 
+ - For convenience bins are grouped in categories
+
+---
+
+## The Expolaratory Rubric
+
+ * 17 rubric bins
+ * 3 categories of bins
+     * Color comparison
+     * Reasoning
+     * Other information
+ * All LSCI options reproduced by color comparison bins
+
+---
+
+## Star Color and Absorption Features
+```{r,echo=FALSE,warning=FALSE,message=FALSE,fig.width=10,fig.align='center'}
+library(XLConnect)
+library(reshape2)
+library(ggplot2)
+library(ggthemes)
+
+fileIn <- "~/AACR/astroQD/ColorByAbsorptionALl.xlsx"
+
+# Emission Line Source
+datIn <- readWorksheetFromFile(fileIn,sheet=1)
+datIn[is.na(datIn)] <- 0
+
+scoring <- datIn[1:156,3:19]
+scoringPre <- scoring[1:43,]
+scoringPost <-scoring[44:nrow(scoring),]
+
+totals <- colSums(scoring) #total scoring
+compIndex <-names(scoring)[1:5] #index for system rubric bins
+reasonIndex <-names(scoring)[6:9]
+otherIndex <-names(scoring)[10:17]
+
+orderIndex <- c(compIndex[order(totals[compIndex],decreasing = TRUE)],
+                reasonIndex[order(totals[reasonIndex],decreasing = TRUE)], #index by frequency
+                otherIndex[order(totals[otherIndex],decreasing = TRUE)]) #index by frequency
+
+totals <- totals[orderIndex] #sort by frequency index
+totalIndex <- names(totals) #set final rubric bin index
+
+twoColor <-c("#000099","#FF9933")
+threeColor <-c("#000099","#99FF99","#FF9933")
+twoColorEd <-c("#000033","#994d00")
+threeColorEd <-c("#000099","#006600","#994d00")
+
+
+compDF <- data.frame(rubricBin=seq(17),
+                     meansPre=colMeans(scoringPre[,totalIndex]),
+                     meansPost=-colMeans(scoringPost[,totalIndex]),
+                     group=factor(c(rep(1,5),rep(2,4),rep(3,8)),labels=c("Color\nComparison","Reasoning","Other\nInformation")))
+colnames(compDF) <- c("rubricBin","pre-instruction","post-instruction","Category")
+
+clDF <- melt(compDF,id.vars=c("rubricBin","Category"))
+
+labFmt <- function(x){abs(x)*100}
+
+ggplot(clDF,aes(rubricBin))+
+        geom_bar(data=subset(clDF,variable=="pre-instruction"),aes(y=value,fill=Category,color=Category),stat="identity")+#,color="#006d2c")+
+        geom_bar(data=subset(clDF,variable=="post-instruction"),aes(x=rubricBin,y=value,fill=Category,color=Category),stat="identity")+#,color="#006d2c")+
+        scale_y_continuous(labels=labFmt,limits=c(-0.73,0.73))+
+        scale_fill_manual(values=threeColor)+
+        scale_color_manual(values=threeColorEd)+
+        geom_hline(aes(yintercept=0))+
+        xlab("Rubric Bin")+
+        ylab("Frequency (%)")+
+        annotate("text",y=c(-0.60,0.60),x=c(13,13),label=c("Post Instruction","Pre Instruction"),size=8)+
+        theme_few()+
+        theme(legend.key.height=unit(2.,"line"),text = element_text(size=20))
+
+```
+
+
+---
+
+## Star Color and Absorption Features
+```{r,echo=FALSE,warning=FALSE,message=FALSE,fig.width=10,fig.align='center'}
+library(XLConnect)
+library(reshape2)
+library(ggplot2)
+library(ggthemes)
+
+fileIn <- "~/AACR/astroQD/ColorByAbsorptionALl.xlsx"
+
+# Emission Line Source
+datIn <- readWorksheetFromFile(fileIn,sheet=1)
+datIn[is.na(datIn)] <- 0
+
+scoring <- datIn[1:156,3:19]
+scoringPre <- scoring[1:43,]
+scoringPost <-scoring[44:nrow(scoring),]
+
+totals <- colSums(scoring) #total scoring
+compIndex <-names(scoring)[1:5] #index for system rubric bins
+reasonIndex <-names(scoring)[6:9]
+otherIndex <-names(scoring)[10:17]
+
+orderIndex <- c(compIndex[order(totals[compIndex],decreasing = TRUE)],
+                reasonIndex[order(totals[reasonIndex],decreasing = TRUE)], #index by frequency
+                otherIndex[order(totals[otherIndex],decreasing = TRUE)]) #index by frequency
+
+totals <- totals[orderIndex] #sort by frequency index
+totalIndex <- names(totals) #set final rubric bin index
+
+twoColor <-c("#000099","#FF9933")
+threeColor <-c("#000099","#99FF99","#FF9933")
+twoColorEd <-c("#000033","#994d00")
+threeColorEd <-c("#000099","#006600","#994d00")
+
+
+compDF <- data.frame(rubricBin=seq(17),
+                     meansPre=colMeans(scoringPre[,totalIndex]),
+                     meansPost=-colMeans(scoringPost[,totalIndex]),
+                     group=factor(c(rep(1,5),rep(2,4),rep(3,8)),labels=c("Color\nComparison","Reasoning","Other\nInformation")))
+colnames(compDF) <- c("rubricBin","pre-instruction","post-instruction","Category")
+
+clDF <- melt(compDF,id.vars=c("rubricBin","Category"))
+
+labFmt <- function(x){abs(x)*100}
+# arrowDat <- data.frame(x=seq(5),
+#                        # xEnd=(seq(5)+0.25)+(5:1)*0.5,
+#                        xEnd=seq(5),
+#                        y=compDF[1:5,"pre-instruction"],
+#                        yEnd=compDF[1:5,"pre-instruction"]+c(0.1,0.4,0.3,0.2,0.1),
+#                        text=gsub("\\."," ",colnames(scoring[,1:5]))
+#                        # yEnd=compDF[1:5,"pre-instruction"]+(1:5)*0.1
+#                        )
+
+arrowDat <- data.frame(x=1:5,
+                       # xEnd=(seq(5)+0.25)+(5:1)*0.5,
+                       xEnd=1:5,
+                       y=c(compDF[1:3,"pre-instruction"],compDF[4:5,"post-instruction"]),
+                       yEnd=c(compDF[1:3,"pre-instruction"],compDF[4:5,"post-instruction"])
+                       +c(0.1,0.3,0.2,-0.3,-0.2),
+                       text=gsub("\\."," ",colnames(scoring[,totalIndex[1:5]]))
+                       # yEnd=compDF[1:5,"pre-instruction"]+(1:5)*0.1
+                       )
+
+ggplot(clDF,aes(rubricBin))+
+        geom_bar(data=subset(clDF,variable=="pre-instruction"),aes(y=value,fill=Category,color=Category),stat="identity")+#,color="#006d2c")+
+        geom_bar(data=subset(clDF,variable=="post-instruction"),aes(x=rubricBin,y=value,fill=Category,color=Category),stat="identity")+#,color="#006d2c")+
+        scale_y_continuous(labels=labFmt,limits=c(-0.73,0.73))+
+        scale_fill_manual(values=threeColor)+
+        scale_color_manual(values=threeColorEd)+
+        geom_hline(aes(yintercept=0))+
+        xlab("Rubric Bin")+
+        ylab("Frequency (%)")+
+        annotate("text",y=c(-0.60,0.60),x=c(13,13),label=c("Post Instruction","Pre Instruction"),size=8)+
+        geom_segment(data=arrowDat,aes(x=x,xend=xEnd,y=y,yend=yEnd),
+                     arrow=arrow(length=unit(2, "mm"),ends="first"))+
+        annotate("text",y=arrowDat[,"yEnd"]+0.03*c(1,1,1,-1,-1),x=arrowDat[,"xEnd"]+c(3,3,4,2,6),
+                 label=arrowDat[,"text"],size=6)+
+        theme_few()+
+        theme(legend.key.height=unit(2.,"line"),text = element_text(size=20))
+
+```
+
+
+---
+
+## Star Color and Absorption Features
+```{r,echo=FALSE,warning=FALSE,message=FALSE,fig.width=10,fig.align='center'}
+library(XLConnect)
+library(reshape2)
+library(ggplot2)
+library(ggthemes)
+
+fileIn <- "~/AACR/astroQD/ColorByAbsorptionALl.xlsx"
+
+# Emission Line Source
+datIn <- readWorksheetFromFile(fileIn,sheet=1)
+datIn[is.na(datIn)] <- 0
+
+scoring <- datIn[1:156,3:19]
+scoringPre <- scoring[1:43,]
+scoringPost <-scoring[44:nrow(scoring),]
+
+totals <- colSums(scoring) #total scoring
+compIndex <-names(scoring)[1:5] #index for system rubric bins
+reasonIndex <-names(scoring)[6:9]
+otherIndex <-names(scoring)[10:17]
+
+orderIndex <- c(compIndex[order(totals[compIndex],decreasing = TRUE)],
+                reasonIndex[order(totals[reasonIndex],decreasing = TRUE)], #index by frequency
+                otherIndex[order(totals[otherIndex],decreasing = TRUE)]) #index by frequency
+
+totals <- totals[orderIndex] #sort by frequency index
+totalIndex <- names(totals) #set final rubric bin index
+
+twoColor <-c("#000099","#FF9933")
+threeColor <-c("#000099","#99FF99","#FF9933")
+twoColorEd <-c("#000033","#994d00")
+threeColorEd <-c("#000099","#006600","#994d00")
+
+
+compDF <- data.frame(rubricBin=seq(17),
+                     meansPre=colMeans(scoringPre[,totalIndex]),
+                     meansPost=-colMeans(scoringPost[,totalIndex]),
+                     group=factor(c(rep(1,5),rep(2,4),rep(3,8)),labels=c("Color\nComparison","Reasoning","Other\nInformation")))
+colnames(compDF) <- c("rubricBin","pre-instruction","post-instruction","Category")
+
+clDF <- melt(compDF,id.vars=c("rubricBin","Category"))
+
+labFmt <- function(x){abs(x)*100}
+# arrowDat <- data.frame(x=seq(5),
+#                        # xEnd=(seq(5)+0.25)+(5:1)*0.5,
+#                        xEnd=seq(5),
+#                        y=compDF[1:5,"pre-instruction"],
+#                        yEnd=compDF[1:5,"pre-instruction"]+c(0.1,0.4,0.3,0.2,0.1),
+#                        text=gsub("\\."," ",colnames(scoring[,1:5]))
+#                        # yEnd=compDF[1:5,"pre-instruction"]+(1:5)*0.1
+#                        )
+
+arrowDat <- data.frame(x=c(13,10,15),
+                       # xEnd=(seq(5)+0.25)+(5:1)*0.5,
+                       xEnd=c(13,10,15),
+                       y=c(compDF[13,"pre-instruction"],compDF[c(10,15),"post-instruction"]),
+                       yEnd=c(compDF[13,"pre-instruction"],compDF[c(10,15),"post-instruction"])
+                       +c(0.2,-0.1,-0.4),
+                       text=gsub("\\."," ",colnames(scoring[,totalIndex[c(13,10,15)]]))
+                       # yEnd=compDF[1:5,"pre-instruction"]+(1:5)*0.1
+                       )
+
+ggplot(clDF,aes(rubricBin))+
+        geom_bar(data=subset(clDF,variable=="pre-instruction"),aes(y=value,fill=Category,color=Category),stat="identity")+#,color="#006d2c")+
+        geom_bar(data=subset(clDF,variable=="post-instruction"),aes(x=rubricBin,y=value,fill=Category,color=Category),stat="identity")+#,color="#006d2c")+
+        scale_y_continuous(labels=labFmt,limits=c(-0.73,0.73))+
+        scale_fill_manual(values=threeColor)+
+        scale_color_manual(values=threeColorEd)+
+        geom_hline(aes(yintercept=0))+
+        xlab("Rubric Bin")+
+        ylab("Frequency (%)")+
+        annotate("text",y=c(-0.60,0.60),x=c(13,13),label=c("Post Instruction","Pre Instruction"),size=8)+
+        geom_segment(data=arrowDat,aes(x=x,xend=xEnd,y=y,yend=yEnd),
+                     arrow=arrow(length=unit(2, "mm"),ends="first"))+
+        annotate("text",y=arrowDat[,"yEnd"]+c(0.03,-0.03,-0.03),x=arrowDat[,"xEnd"]+c(-1,-1,-4),
+                 label=arrowDat[,"text"],size=6)+
+        theme_few()+
+        theme(legend.key.height=unit(2.,"line"),text = element_text(size=20))
+
+```
+
+
+---
+
+## Reasoning for "Star X is Blue"
+
+```{r, echo=FALSE,warning=FALSE, fig.align="center"}
+blueIndexPre <- scoringPre[,1]==1
+blueIndexPost <- scoringPost[,1]==1
+
+blueReasonDF<- data.frame(rubricBin=ordered(totalIndex[c(6,8:9)],levels=totalIndex[c(6,8:9)]),
+                          meansPre=colMeans(scoringPre[blueIndexPre,totalIndex])[c(6,8:9)],
+                          meansPost=-colMeans(scoringPost[blueIndexPost,totalIndex])[c(6,8:9)])
+brDF <- melt(blueReasonDF,id.vars="rubricBin")
+
+ggplot(brDF,aes(rubricBin))+
+        geom_bar(data=subset(brDF,variable=="meansPre"),aes(y=value,fill=rep("a",3)),stat="identity",color=threeColorEd[2])+
+        geom_bar(data=subset(brDF,variable=="meansPost"),aes(x=rubricBin,y=value,fill=rep("a",3)),stat="identity",color=threeColorEd[2])+
+        scale_y_continuous(labels=labFmt,limits=c(-0.30,0.30))+
+        # scale_fill_few(palette="dark")+
+        # scale_fill_brewer(palette = "Set2",guide=FALSE)+
+        # scale_fill_manual(values = brewer.pal(3,"Set2")[2],guide=FALSE)+
+        # scale_fill_manual(values = brewer.pal(3,"BuGn")[2],guide=FALSE)+
+        scale_fill_manual(values = threeColor[2],guide=FALSE)+
+        scale_x_discrete(labels=rev(c("Lines signify emission","Light absorbed equals\nlight observed","Color produced\nby Doppler shift")),name=NULL)+
+        # scale_x_reverse()+
+        geom_hline(aes(yintercept=0))+
+        xlab("Rubric Bin")+
+        ylab("Frequency")+
+        # coord_flip()+
+        # annotate("text",y=c(-0.30,0.30),x=c(0.5,0.5),label=c("Post Instruction","Pre Instruction"),size=6)+
+        annotate("text",y=c(-0.25,0.25),x=c(1,1),label=c("Post Instruction","Pre Instruction"),size=8)+
+        theme_few()+
+        theme(legend.key.height=unit(2.,"line"),text = element_text(size=16))
+
+```
+
+
+---
+
+## Item Summary and Conclusions
+
+### Questions
+ * Are students confused by item, forced to choose in face of lack of adequate information?
+ * Why is "X is Blue, Z is Red" three times as popular as "X is Red, Z is Blue"?
+ * Are the reasons in the test set representative of the entire population?
+ 
+### (Tentative) Conclusions
+ * Students struggle with the nature of absorption lines
+ * Confusion resistant to instruction
+
+--- &twocol
+
+## Moving Forward
+
+### Revise questions
+<center> ![Color](assets/img/q2.png) </center>
+
+Consider the dark line absorption spectra shown below for Star X and Star Z. What, *__if anything__*, can you determine about the colors of the two stars *__from these spectra__*? *__Explain your reasoning.__* Assume that the left end of each spectrum corresponds to shorter wavelengths (blue light) and that the right end of each spectrum corresponds with longer wavelengths (red light).
+
+ 
+### Automation
+
+*** =left
+ * More data to build predictive models
+*** =right
+ * Develop predictive rubric
+
+--- &twocol
+
+## Acknowledgements
+
+*** =left
+
+### Thanks
+
+The AACR Research Group
+
+Particpant Instructors
+
+### Grants
+This material is based upon work supported by the National Science Foundation (Grants 0736952, 0909999, 1022653, 1323162, and 1347740). Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the supporting agencies. 
+
+*** =right
+
+<img src="assets/img/aacrQR.png" width="400px"/>
+https://msu.edu/~aacr
